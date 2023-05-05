@@ -3,9 +3,9 @@ const Item = require("../models/item")
 const dotenv = require('dotenv');
 dotenv.config();
 // console.log(process.env.USER_COLL)
-const db = process.env.USER_COLL;
+// const db = process.env.USER_COLL;
 
-// const db = "mongodb+srv://Akash:ImgPGXhcQTHdWcOi@cluster0.ffkbukn.mongodb.net/e-commerce?retryWrites=true&w=majority";
+const db = "mongodb+srv://Akash:ImgPGXhcQTHdWcOi@cluster0.ffkbukn.mongodb.net/e-commerce?retryWrites=true&w=majority";
 
 
 
