@@ -7,7 +7,7 @@ const router = require("./routes/newregister")
 
 
 // console.log(process.env.USER_port)
-const port = process.env.USER_port
+const port = 4000
 
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "http://127.0.0.1:5173");
